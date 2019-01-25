@@ -1,11 +1,13 @@
 html, body {
   width: 100%;
   margin: 0;
-  background-color: #fad390;
+  background-color: #079992;
 }
 h2, p {
-  color: #079992;
+  color: #fad390;
   padding: 25px 0;
-  margin: 0 auto;
   text-align: center;
+}
+.container {
+  margin: 0 auto;
 }
