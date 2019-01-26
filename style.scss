@@ -1,0 +1,13 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color: #079992;
+    .container {
+        margin: 0 auto;
+        h2, p {
+        color: black;
+        padding: 25px 0;
+        text-align: center;
+        }
+    }
+}
