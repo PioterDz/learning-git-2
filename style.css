@@ -1,13 +1,12 @@
 html, body {
   width: 100%;
   margin: 0;
-  background-color: #079992;
-}
-h2, p {
-  color: #fad390;
-  padding: 25px 0;
-  text-align: center;
-}
-.container {
-  margin: 0 auto;
-}
+  background-color: #079992; }
+  html .container, body .container {
+    margin: 0 auto; }
+    html .container h2, html .container p, body .container h2, body .container p {
+      color: #fad390;
+      padding: 25px 0;
+      text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
