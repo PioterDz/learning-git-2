@@ -14,9 +14,12 @@
     "build:clean": "rimraf css/*",
     "build:sass": "node-sass --output-style compact -o css sass",
     "build:autoprefixer": "autoprefixer-cli css/style.css",
+    "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
   	"watch:browser-sync": "npm run browser-sync",
-  	"watch:sassprefixer": "npm-run-all -p onchange sass node-sass"
+  	"watch:sassprefixer": "onchange -d 100 ./style.scss -- run-s compiler prefixer",
+  	"prefixer": "autoprefixer-cli -o ./style.css",
+    "compiler": "node-sass ./style.scss -o ./"
   },
   "keywords": [],
   "author": "",

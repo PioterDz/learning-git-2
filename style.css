@@ -7,6 +7,4 @@ html, body {
     html .container h2, html .container p, body .container h2, body .container p {
       color: #fad390;
       padding: 25px 0;
-      text-align: center; }
-
-/*# sourceMappingURL=style.css.map */
+      text-align: left; }
